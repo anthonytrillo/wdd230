@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+  background-color: #dddddd;
+
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80%;
+  margin-top: 20px;
+  background-color: #f0f8ff;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card, .card-information {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  background-color: #f0f8ff;
+}
+
+footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  background-color: #dddddd;
+}
+
+#flag {
+  width: 40px;
+}
+
+.card-information, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
